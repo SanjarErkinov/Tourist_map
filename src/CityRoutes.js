@@ -3,11 +3,13 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MainHome from './Components/MainHome';
 import NewYork from './Components/NewYork';
 import AppStore from './Components/AppStore';
+import Login from './Components/Login/Login';
 
 const CityRoutes = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={MainHome} />
+      <Route path="login" element={<Login />} />
       <Route exact path="/cities/new-york" component={NewYork} />
       <Route exact path="/cities/las-vegas" component={MainHome} />
       <Route exact path="/cities/rome" component={MainHome} />

@@ -7,7 +7,7 @@ class Collection extends Component {
     return (
       <div>
         <div className="collections-wrapper">
-          <h1>Our Collections</h1>
+          <h1>Наши Колекции</h1>
           <hr
             style={{
               backgroundColor: '#ffbb58',

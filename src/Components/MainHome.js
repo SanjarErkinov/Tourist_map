@@ -25,11 +25,11 @@ class MainHome extends Component {
           <span role="img" aria-label="Warn">
             👷
           </span>{' '}
-          Currently Building{' '}
+          В настоящее время строится{' '}
           <span role="img" aria-label="Warn">
             🛠💪🔧
           </span>{' '}
-          New York City{' '}
+          explore.kg{' '}
           <span role="img" aria-label="Warn">
             🌆
           </span>{' '}
@@ -38,7 +38,7 @@ class MainHome extends Component {
           </span>
         </p>
         <TopCities />
-        <HeadoutPicks pickedData={pickedData} headline={'Headout Picks'} />
+        <HeadoutPicks pickedData={pickedData} headline={'Лучшие Туры'} />
         <Collections collectionsData={collectionsData} />
         <Download />
         <Media />
@@ -54,17 +54,17 @@ const backgroundImagesData = [
   {
     id: 1,
     url:
-      'https://cdn-imgix-open.headout.com/desktop-flaps/cashback-01.jpg?auto=compress&fm=webp&h=501&crop=faces&fit=min'
+      'https://p4.wallpaperbetter.com/wallpaper/58/791/647/alai-kyrgyzstan-south-wallpaper-preview.jpg'
   },
   {
     id: 2,
     url:
-      'https://cdn-imgix-open.headout.com/desktop-flaps/about-01-01.jpg?auto=compress&fm=webp&h=501&crop=faces&fit=min'
+      'https://p4.wallpaperbetter.com/wallpaper/221/898/425/kyrgyzstan-tien-shan-mountains-trees-wallpaper-preview.jpg'
   },
   {
     id: 3,
     url:
-      'https://cdn-imgix-open.headout.com/flaps/non-city-specific/desktop/experience-desktop.png?auto=compress&fm=webp&h=501&crop=faces&fit=min'
+      'https://p4.wallpaperbetter.com/wallpaper/114/346/465/flowers-mountains-lake-kyrgyzstan-tien-shan-hd-wallpaper-preview.jpg'
   }
 ];
 
@@ -73,27 +73,26 @@ const backgroundImagesData = [
 const HeaderNavData = [
   {
     id: 1,
-    name: 'Headout Picks'
+    name: 'Контакты'
   },
   {
     id: 2,
-    name: 'Best Sellers'
+    name: 'Сертификат'
   },
   {
     id: 3,
-    name: 'Abu Dhabi City Tours'
+    name: 'О Компании'
   },
   {
     id: 4,
-    name: 'Amsterdam Attractions'
+    name: 'Отзывы'
   },
   {
     id: 5,
-    name: 'Burj Khalifa'
+    name: ''
   }
 ];
 
-// Currently using this Data for Headout Top Picks
 
 const pickedData = [
   {
@@ -102,10 +101,10 @@ const pickedData = [
     currency: '$',
     stars: 4.6,
     ratings: 681,
-    city: 'NEW YORK',
-    description: 'The Phantom of the Opera',
+    city: 'Иссык-Куль',
+    description: 'Чолпон-Ата',
     url:
-      'https://cdn-imgix.headout.com/tour/652/TOUR-IMAGE/cd0fa708-27c2-4145-9fcf-14e84d910456-517-new-york-phantom-of-the-opera-00.jpg?auto=compress&fm=webp&w=510&h=315&crop=faces&fit=min'
+      'https://www.ekburg.ru/UserFiles/image/news/0/5/38/53830Big.jpg'
   },
   {
     id: 2,
@@ -114,10 +113,10 @@ const pickedData = [
     stars: 4.6,
     ratings: 564,
     cashback: 10,
-    city: 'NEW YORK',
-    description: 'Aladdin',
+    city: 'Иссык-Куль',
+    description: 'Чолпон-Ата',
     url:
-      'https://cdn-imgix.headout.com/tour/638/TOUR-IMAGE/d8da7ef3-6be5-4ab9-a88e-66a1cf8b5126-2.jpg?auto=compress&fm=webp&w=510&h=315&crop=faces&fit=min'
+      'https://www.ekburg.ru/UserFiles/image/news/0/5/38/53830Big.jpg'
   },
   {
     id: 3,
@@ -125,10 +124,10 @@ const pickedData = [
     lastPrice: 79,
     currency: '$',
     discount: 49,
-    city: 'NEW YORK',
-    description: 'King Kong - Broadway Week Discount',
+    city: 'Иссык-Куль',
+    description: 'Чолпон-Ата',
     url:
-      'https://cdn-imgix.headout.com/tour/18201/TOUR-IMAGE/a24bde23-2e32-49d4-bf14-b933fe60fe52-c817b2f3-194d-4fde-9ad8-fccbaf50ed31-9339-new-york-king-kong-01.jpg?auto=compress&fm=webp&w=510&h=315&crop=faces&fit=min'
+      'https://www.ekburg.ru/UserFiles/image/news/0/5/38/53830Big.jpg'
   },
   {
     id: 4,
@@ -139,10 +138,10 @@ const pickedData = [
     stars: 4.6,
     ratings: 2588,
     cashback: 5,
-    city: 'DUBAI',
-    description: 'Burj Khalifa: At the Top (Level 124 & 125)',
+    city: 'Бишкек',
+    description: 'Бишкек',
     url:
-      'https://cdn-imgix.headout.com/tour/2636/TOUR-IMAGE/84609881-4697-4b73-bb46-9998b2fd7aa2-1866-dubai-burj-khalifa-at-the-top-01-4-.jpg?auto=compress&fm=webp&w=510&h=315&crop=faces&fit=min'
+      'https://www.ekburg.ru/UserFiles/image/news/0/5/38/53830Big.jpg'
   },
   {
     id: 5,
@@ -153,10 +152,10 @@ const pickedData = [
     stars: 4.6,
     ratings: 1240,
     cashback: 5,
-    city: 'DUBAI',
-    description: 'Dubai Acquarium & Underwater Zoo + Burj Khalifa Combo',
+    city: 'Бишкек',
+    description: 'Бишкек',
     url:
-      'https://cdn-imgix.headout.com/tour/3832/TOUR-IMAGE/4306765f-f03f-47a0-a5c5-241ae6cd49f6-2545-dubai-aquarium-underwater-zoo-burj-khalifa-combo-01.jpg?auto=compress&fm=webp&w=510&h=315&crop=faces&fit=min'
+      'https://www.ekburg.ru/UserFiles/image/news/0/5/38/53830Big.jpg'
   },
   {
     id: 6,
@@ -164,11 +163,11 @@ const pickedData = [
     currency: '€',
     stars: 4.6,
     ratings: 437,
-    city: 'PARIS',
+    city: 'Талас',
     description:
-      'Palace of Versailles All Access Passport Entry with Audioguide',
+      'Шымкент',
     url:
-      'https://cdn-imgix.headout.com/tour/13905/TOUR-IMAGE/b23dc05c-1b19-4eb4-a205-fb9f0f2e29ab-7654-paris-Palace-of-Versailles-All-Access-Passport-Entry-with-Audioguide-01.jpg?auto=compress&fm=webp&w=510&h=315&crop=faces&fit=min'
+      'https://www.ekburg.ru/UserFiles/image/news/0/5/38/53830Big.jpg'
   },
   {
     id: 7,
@@ -179,10 +178,10 @@ const pickedData = [
     stars: 4.6,
     ratings: 474,
     cashback: 10,
-    city: 'PARIS',
-    description: 'Skip The Line: Eiffel Tower Tickets with Host',
+    city: 'Талас',
+    description: 'Шымкент',
     url:
-      'https://cdn-imgix.headout.com/tour/8092/TOUR-IMAGE/d9ee5fc2-5c9e-4981-8f4a-d16dc69769fd-P1.jpg?auto=compress&fm=webp&w=510&h=315&crop=faces&fit=min'
+      'https://www.ekburg.ru/UserFiles/image/news/0/5/38/53830Big.jpg'
   }
 ];
 
@@ -191,97 +190,97 @@ const pickedData = [
 const collectionsData = [
   {
     id: 1,
-    description: 'City Tours',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/349/image/49d50732-f94b-4027-9dfd-58891e960a96-hong-kong-city-tour.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 2,
-    description: 'Abu Dhabi City Tours',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/152/abu-dhabi/image/daytour.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 3,
-    description: 'Amsterdam Attractions',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/177/amsterdam/image/Amsterdam-Attractions.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 4,
-    description: 'Burj Khalifa',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/158/dubai/image/Dubai-Khalifa.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 5,
-    description: 'Museums & Art Galleries',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/510/image/a2c6da57-3994-4910-97ad-abe2b9b31a65-uffizi-gallery-hallway.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 6,
-    description: 'Alhambra',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/1449/image/f1b8a5ab-ffa6-47a4-a50e-e96bd92b64a5-willian-justen-de-vasconcellos-499722-unsplash.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 7,
-    description: 'Hong Kong Attractions',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/348/image/7a5e9926-9f14-45aa-b915-23c5bc9e1a17-hong-kong-attractions.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 8,
-    description: 'Entrainment Shows',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/49/image/9bf7c5aa-9012-4687-9ada-ecf7ba26048a-49-las-vegas-aerial-01.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 9,
-    description: 'London Attractions',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/168/london/image/london-attractions.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 10,
-    description: 'Madrid Attractions',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/201/madrid/image/Madrid-Attractions.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 11,
-    description: 'Last Supper',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/1178/image/61c6d18d-36c0-4537-863f-efc8a0a1b24c-the-last-supper.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 12,
-    description: 'Neuschwanstein',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/1520/image/206de694-146f-4bc9-8fa1-d77074da8b7e-nikita-semerenko-776957-unsplash.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 13,
-    description: 'Pompeii',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/1223/image/3f77a082-970d-43df-bc5d-7e6e301925c6-pompeii.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 14,
-    description: 'Broadway Show Tickets',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/24/image/66000036-0523-4859-87b7-83d628b8843c-BroadwayShowTickets.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 15,
-    description: 'Weekend in Prague',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/1219/image/a49bbc22-258b-48c0-93fe-c7fdf9a8c65a-city.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   },
   {
     id: 16,
-    description: 'Vatican',
+    description: 'Пусто',
     url:
       'https://cdn-imgix.headout.com/category/189/image/e16239ea-0531-4a95-9c18-ced64eb08d54-nicolas-hoizey-408661-unsplash.jpg?auto=compress&fm=webp&w=480&h=480&crop=faces&fit=min'
   }

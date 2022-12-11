@@ -51,7 +51,7 @@ class ExperienceCard extends Component {
       <div className="exp-card">
         {showMore ? (
           <div className="show-more">
-            <p>View All</p>
+            <p>Скоро...</p>
           </div>
         ) : (
           <React.Fragment>
@@ -144,13 +144,13 @@ class ExperienceCard extends Component {
                           } Ratings)`}</p>
                         )
                       ) : (
-                        <p id="ratings">Newly Arrived</p>
+                        <p id="ratings">Недавно прибывшие</p>
                       )}
                     </div>
                   </div>
                   <div className="price">
-                    <p>from</p>
-                    {lastPrice && this.props.city === 'DUBAI' ? (
+                    <p>из</p>
+                    {lastPrice && this.props.city === 'ыфтофр' ? (
                       <p id="last-price">{`${this.props.currency} ${
                         this.props.lastPrice
                       }`}</p>

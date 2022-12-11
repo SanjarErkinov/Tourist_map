@@ -46,13 +46,13 @@ class Header extends Component {
           <div className="select-experience-large">
             <input
               type="text"
-              placeholder="Search for experiences"
+              placeholder="Поиск"
               onChange={this.changeExperience}
               value={this.state.experience}
             />
             <i className="fas fa-search" />
           </div>
-          <button id="go">Let's Go</button>
+          <button id="go">OK</button>
         </div>
       </React.Fragment>
     );
@@ -64,23 +64,23 @@ export class HeaderNav extends Component {
     navigationData: [
       {
         id: 1,
-        name: 'Headout Picks'
+        name: 'Контакты'
       },
       {
         id: 2,
-        name: 'Best Sellers'
+        name: 'Сертификат'
       },
       {
         id: 3,
-        name: 'Abu Dhabi City Tours'
+        name: 'О Компании'
       },
       {
         id: 4,
-        name: 'Amsterdam Attractions'
+        name: 'Отзывы'
       },
       {
         id: 5,
-        name: 'Burj Khalifa'
+        name: ''
       }
     ]
   };
@@ -107,7 +107,7 @@ export class HeaderNav extends Component {
                 <div className="select-experience">
                   <input
                     type="text"
-                    placeholder="Search for experiences"
+                    placeholder="Поиск"
                     onChange={this.changeExperience}
                     value={this.props.experience}
                   />
@@ -145,17 +145,16 @@ export class HeaderNav extends Component {
             </div>
             <div className="header-right">
               <a
-                href="https://lastnamearya.github.io"
-                target="_blank"
+                href=""
                 rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
                 <div className="sign-in">
-                  {/* <i className="fas fa-user-circle sign-in-user" /> */}
+                  {/* <i className="fas fa-user-circle sign-in-user" />
                   <div className="lastnamearya-img">
                     <img
-                      src="https://secure.gravatar.com/avatar/413b990ccd2cf5ba69d609fdba4f0302"
-                      alt="lastnamearya"
+                      src=""
+                      alt=""
                     />
                   </div>
                   <p style={{ color: '#ec1943', marginLeft: '5px' }}>
@@ -164,7 +163,10 @@ export class HeaderNav extends Component {
                       {' '}
                       <i className="fas fa-angle-down" />
                     </span>
-                  </p>
+                  </p> */}
+                  <Link to="login">
+                  sign-in
+                  </Link>
                 </div>
               </a>
               <Link
@@ -175,7 +177,7 @@ export class HeaderNav extends Component {
               >
                 <div className="download-app">
                   <img src={MobileApp} id="mobile-app" alt="Download our App" />
-                  <p style={{ color: '#24a1b2' }}>Download App</p>
+                  <p style={{ color: '#24a1b2' }}>Скачать приложение</p>
                 </div>
               </Link>
             </div>
@@ -187,21 +189,13 @@ export class HeaderNav extends Component {
 }
 
 const options = [
-  { value: 'new-york', label: 'New York' },
-  { value: 'las-vegas', label: 'Las Vegas' },
-  { value: 'rome', label: 'Rome' },
-  { value: 'paris', label: 'Paris' },
-  { value: 'london', label: 'London' },
-  { value: 'dubai', label: 'Dubai' },
-  { value: 'barcelona', label: 'Barcelona' },
-  { value: 'madrid', label: 'Madrid' },
-  { value: 'singapore', label: 'Singapore' },
-  { value: 'venice', label: 'Venice' },
-  { value: 'milan', label: 'Milan' },
-  { value: 'naples', label: 'Naples' },
-  { value: 'budapest', label: 'Budapest' },
-  { value: 'edinburg', label: 'Edinburg' },
-  { value: 'florence', label: 'Florence' }
+  { value: 'new-york', label: 'Иссык-Куль' },
+  { value: 'las-vegas', label: 'Чуй' },
+  { value: 'rome', label: 'Талас' },
+  { value: 'paris', label: 'Баткен' },
+  { value: 'london', label: 'Нарын' },
+  { value: 'dubai', label: 'Джалал-Абад' },
+  { value: 'barcelona', label: 'Ош' },
 ];
 
 const customStyles = {

@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 
 const options = [
-  { value: 'New York', label: 'New York' },
-  { value: 'Las Vegas', label: 'Las Vegas' },
-  { value: 'Rome', label: 'Rome' },
-  { value: 'Paris', label: 'Paris' },
-  { value: 'London', label: 'London' },
-  { value: 'Dubai', label: 'Dubai' },
-  { value: 'Barcelona', label: 'Barcelona' },
-  { value: 'Madrid', label: 'Madrid' },
-  { value: 'Singapore', label: 'Singapore' },
-  { value: 'Venice', label: 'Venice' },
-  { value: 'Milan', label: 'Milan' },
-  { value: 'Naples', label: 'Naples' },
-  { value: 'Budapest', label: 'Budapest' },
-  { value: 'Edinburg', label: 'Edinburg' },
-  { value: 'Florence', label: 'Florence' }
+  { value: 'new-york', label: 'Иссык-Куль' },
+  { value: 'las-vegas', label: 'Чуй' },
+  { value: 'rome', label: 'Талас' },
+  { value: 'paris', label: 'Баткен' },
+  { value: 'london', label: 'Нарын' },
+  { value: 'dubai', label: 'Джалал-Абад' },
+  { value: 'barcelona', label: 'Ош' },
+  // { value: 'madrid', label: 'Madrid' },
+  // { value: 'singapore', label: 'Singapore' },
+  // { value: 'venice', label: 'Venice' },
+  // { value: 'milan', label: 'Milan' },
+  // { value: 'naples', label: 'Naples' },
+  // { value: 'budapest', label: 'Budapest' },
+  // { value: 'edinburg', label: 'Edinburg' },
+  // { value: 'florence', label: 'Florence' }
 ];
 
 const customStyles = {
@@ -64,7 +64,7 @@ class Searchbar extends Component {
           <div className="select-div">
             <Select
               styles={customStyles}
-              placeholder="Select City"
+              placeholder="Выберите Область"
               value={selectedOption}
               onChange={this.handleChange}
               options={options}
@@ -72,7 +72,7 @@ class Searchbar extends Component {
           </div>
         </div>
         <div className="select-experience-large" />
-        <button id="go">Let's Go</button>
+        <button id="go">ок</button>
       </div>
     );
   }

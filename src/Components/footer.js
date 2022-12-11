@@ -12,49 +12,51 @@ const Footer = () => (
     <div className="footer-wrapper">
       <div className="column-one">
         <img id="footer" src={HeadoutLogo} alt="Headout" />
-        <p>Headout is building the future of how we experience our cities.</p>
+        <p>explore.kg строит будущее того, как мы воспринимаем наши города.</p>
         <p
           style={{
             color: '#2980b9',
             fontSize: '14px'
           }}
         >
-          Made with{' '}
+          Сделано с{' '}
           <span role="img" aria-label="love">
             ❤️
           </span>{' '}
-          by lastnamearya
+          от Санжар
         </p>
-        <p>&copy; Headout Inc.</p>
+        <p>&copy; it.Academy</p>
       </div>
       <div className="column-two">
-        <h3>Cities</h3>
+        <h3>Области</h3>
         <ul>
-          <li>New York</li>
-          <li>Las Vegas</li>
-          <li>Rome</li>
-          <li>Paris</li>
-          <li>London</li>
-          <li>Dubai</li>
-          <li>Barcelona</li>
-          <li>+8 more</li>
+          <li>Талас</li>
+          <li>Иссык-Куль</li>
+          <li>Нарын</li>
+          <li>Ош</li>
+          <li>Джалал-Абад</li>
+          <li>Баткен</li>
         </ul>
       </div>
       <div className="column-three">
-        <h3>About us</h3>
+        <h3>О нас</h3>
         <ul>
-          <li>About Headout</li>
-          <li>Careers</li>
-          <li>Blog</li>
-          <li>Privacy Policy</li>
-          <li>Terms of Usage</li>
+          <li>Главное</li>
+          <li>Карьера</li>
+          <li>Блог</li>
+          <li>Политика конфиденциальности</li>
+          <li>Условия использования</li>
         </ul>
       </div>
       <div className="column-four">
-        <h3>Contact</h3>
-        <p>Feel free to get in touch via email:</p>
+        <h3>Контакты</h3>
+        <p>Не стесняйтесь обращаться по электронной почте:</p>
         <p style={{ color: '#4fc3f7', cursor: 'pointer' }}>
-          arya.jigyasu6815@gmail.com
+          hdrize8@gmail.com
+          <br/>
+          hdrize8@gmail.com
+          <br/>
+          hdrize8@gmail.com 
         </p>
         <div className="social-media-contact">
           <img
@@ -86,6 +88,22 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    <div className="footer_fixed">
+        <div className="container footer_right">
+          <ul className="ulBottom">
+            <li className="firstLi">На связи 24/7</li>
+            <li>
+              <span>+996</span> 704 542 779
+            </li>
+            <li>
+              <span>+996</span> 706 603 663
+            </li>
+            <li>
+              <span>+996</span> 705 145 515
+            </li>
+          </ul>
+        </div>
+      </div>
   </div>
 );
 

@@ -11,7 +11,7 @@ class TopCities extends Component {
     return (
       <div>
         <div className="top-cities-wrapper">
-          <h1>Top Cities on Headout</h1>
+          <h1>Лучшие места в Кыргызстане</h1>
           <hr
             style={{
               backgroundColor: '#ffbb58',
@@ -96,123 +96,123 @@ class CityCard extends Component {
 const topCitiesData = [
   {
     id: 1,
-    city: 'New York',
-    route: 'new-york',
-    description: 'Take a bite of the Big Apple',
+    city: ' Озеро Иссык-куль',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/new-york/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://st3.depositphotos.com/2757244/14679/i/450/depositphotos_146790751-stock-photo-on-the-shore-of-lake.jpg'
   },
   {
     id: 2,
-    city: 'Las Vegas',
-    route: 'las-vegas',
-    description: "An offer you can't refuse",
+    city: 'Горы Тянь-Шань',
+    route: '',
+    description: "Добро пожаловать",
     url:
-      'https://cdn-imgix.headout.com/cities/las-vegas/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+    'https://i.ytimg.com/vi/zUDNF-D_fH4/hqdefault.jpg'
   },
   {
     id: 3,
-    city: 'Rome',
-    route: 'rome',
-    description: 'Roam the eternal city',
+    city: 'Ущелье Алтын Арашан',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/rome/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://www.open.kg/uploads/posts/2018-08/1535631073_screenshot_6.png'
   },
   {
     id: 4,
-    city: 'Paris',
-    route: 'paris',
-    description: "C'est La Vie",
+    city: 'Священная гора Сулайман-Тоо',
+    route: '',
+    description: "Добро пожаловать",
     url:
-      'https://cdn-imgix.headout.com/cities/paris/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://img.itinari.com/activity/images/original/3b4ea175-3a53-45df-b2d7-25733ada95b4-istock-104249454.jpg?ch=DPR&dpr=2.625&w=1200&h=800&s=6b611a4082ab395a2a2531c192c80007'
   },
   {
     id: 5,
-    city: 'London',
-    route: 'london',
-    description: 'For everything hunky-dory',
+    city: 'Ущелье Ала Арча',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/london/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/a4/8d/63/ala-archa-gorge.jpg?w=1200&h=1200&s=1'
   },
   {
     id: 6,
-    city: 'Dubai',
-    route: 'dubai',
-    description: 'An Oasis like no other',
+    city: 'Арсланбоб',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/dubai/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://www.advantour.com/img/kyrgyzstan/images/arslanbob.jpg'
   },
   {
     id: 7,
-    city: 'Barcelona',
-    route: 'barcelona',
-    description: 'Hacer Peunte a Catalunya',
+    city: 'Ущелье Джеты Огуз',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/barcelona/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://oir.mobi/uploads/posts/2021-06/1623713641_25-oir_mobi-p-ushchele-dzheti-oguz-priroda-krasivo-foto-25.jpg'
   },
   {
     id: 8,
-    city: 'Madrid',
-    route: 'madrid',
-    description: 'Discover the hear of Spain',
+    city: 'Караван-сарай Таш-Рабат',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/madrid/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://touruz.com/ru/blog/wp-content/uploads/2021/07/tash-rabat.jpg'
   },
   {
     id: 9,
-    city: 'Singapore',
-    route: 'singapore',
-    description: 'The Lion City',
+    city: 'Башня Бурана',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/singapore/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'http://st-1.akipress.org/127/.storage/limon2/images/may2015/6b759bfec8d216cb3e3ec2ffaa65918f.jpg'
   },
   {
     id: 10,
-    city: 'Venice',
-    route: 'venice',
-    description: 'Enjoy and have fun in the City',
+    city: 'Мавзолей Гумбез Манаса',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/venice/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://triptokyrgyzstan.com/sites/default/files/media/image/c_ahmed_d.jpg'
   },
   {
     id: 11,
-    city: 'Milan',
-    route: 'milan',
-    description: 'Enjoy and have fun in the City',
+    city: 'Петроглифы Саймалы-Таш',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/milan/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://triptokyrgyzstan.com/sites/default/files/media/image/c_dmitrii_luzhanskii_3.jpg'
   },
   {
     id: 12,
-    city: 'Naples',
-    route: 'naples',
-    description: 'Enjoy and have fun in the City',
+    city: 'Ледник Иныльчек',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/naples/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://centralasia-adventures.com/image/new/inylchek_glacier.html-n.jpg'
   },
   {
     id: 13,
-    city: 'Budapest',
-    route: 'budapest',
-    description: 'Enjoy and have fun in the City',
+    city: 'Озеро Сары-Челек',
+    route: '',
+    description: 'Добро пожаловать',
     url:
-      'https://cdn-imgix.headout.com/cities/budapest/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://www.centralasia-travel.com/uploads/gallery/532/sari-chelek-27.jpg'
   },
   {
     id: 14,
-    city: 'Edinburg',
-    route: 'edinburg',
+    city: 'Озеро Сон-Куль (Сонкёль)',
+    route: '',
     description: 'Enjoy and have fun in the City',
     url:
-      'https://cdn-imgix.headout.com/cities/edinburgh/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://too.kg/wp-content/uploads/Ozero_Son-Kul_10-1024x639.jpg'
   },
   {
     id: 15,
-    city: 'Florence',
-    route: 'florence',
-    description: 'Enjoy and have fun in the City',
+    city: 'Базар в Ошe',
+    route: '',
+    description: 'Наслаждайтесь и получайте удовольствие',
     url:
-      'https://cdn-imgix.headout.com/cities/florence/images/mobile/morning.jpg?auto=compress&fm=webp&w=412.5&h=486&crop=faces&fit=min'
+      'https://www.ktrk.kg/img/thumbnail/393931584684611_big.jpg'
   }
 ];
 
